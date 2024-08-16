@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MealDetailEntity" representedClassName="MealDetailEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="dateModified" optional="YES" attributeType="String"/>
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strArea" optional="YES" attributeType="String"/>
+        <attribute name="strCategory" optional="YES" attributeType="String"/>
+        <attribute name="strCreativeCommonsConfirmed" optional="YES" attributeType="String"/>
+        <attribute name="strDrinkAlternate" optional="YES" attributeType="String"/>
+        <attribute name="strImageSource" optional="YES" attributeType="String"/>
+        <attribute name="strIngredient" optional="YES" attributeType="Binary"/>
+        <attribute name="strInstructions" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+        <attribute name="strMeasure" optional="YES" attributeType="Binary"/>
+        <attribute name="strSource" optional="YES" attributeType="String"/>
+        <attribute name="strTags" optional="YES" attributeType="String"/>
+        <attribute name="strYoutube" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MealEntity" representedClassName="MealEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="idMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMeal" optional="YES" attributeType="String"/>
+        <attribute name="strMealThumb" optional="YES" attributeType="String"/>
+    </entity>
+</model>
